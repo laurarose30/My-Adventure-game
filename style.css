@@ -1,0 +1,56 @@
+body{
+    height:100%;
+    margin: 0;
+    background-image: url(1481325.jpg);
+    background-repeat: no-repeat;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    background-attachment: fixed;
+    display: flex;
+}
+
+
+#container{
+
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ 
+}
+
+.text-center{
+    color: rgb(117, 172, 151);
+    
+}
+
+#gamearea{
+    background-color: rgba(0, 0, 0, 0.801);
+    height: 600px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right:5%;
+    
+}
+#startbutton{
+    color: black;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+#buttonarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer{
+    height: 30vh;
+}
